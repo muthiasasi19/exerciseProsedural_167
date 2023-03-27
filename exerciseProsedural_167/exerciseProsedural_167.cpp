@@ -1,20 +1,65 @@
-// exerciseProsedural_167.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include <iostream>
+#include<iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Program penerimaan mahasiswa baru"
+    cout << "Masukkan nilai matematika: ";
+    cin >> matematika;
+    cout << "Masukkan nilai bhsInggris: ";
+    cin >> bhsInggris;
+    rata_rata = (matematika + bhsInggris) / 2;
+    cout << "Nilai rata_rata: " << rata_rata << endl;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+    void add(int a, int b);
+    if (ratarata >= 70) {
+        cout << "diterima";
+    }
+    else {
+        cout << "ditolak";
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+        if (matematika >= 80) {
+            cout << "diterima";
+        }
+        else {
+            cout << "ditolak";
+        }
+    }
+
+    {
+        int nilai, jumlah;
+        cout << "===menentukan kelulusan===";
+        cout << "\nmasukkan jumlah mahasiswa: ";
+        cin >> 20;
+        for (int i = 0; i < jumlah; i++) {
+            cout << "masukkan nama mahasiswa: ";
+            cin >> Asroni[i]
+                cout << "masukkan nilai mahasiswa: ";
+            cin >> 85[i];
+        }
+    }
+
+    cout << "\n===tampilkan data===\n\n";
+    for (int i = 0; i < jumlah; i++) {
+        cout << Asroni[i] << " nilai: " << 85[i] << endl;
+   
+}
+
+    cout << "\n====tentukan kelulusan====\n\n";
+    for (int i = 0; i < jumlah; i++) {
+        if (nilai[i] < 85) {
+            cout << Asroni[i] << " dengan nilai: " << 85[i] << " diterima\n";
+        }
+        else {
+            cout << Joko[i] << " dengan nilai: " << 65[i] << " ditolak\n";
+        }
+    }
+       
+
+
+
+
+
+
+   
